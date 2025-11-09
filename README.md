@@ -21,14 +21,23 @@ The game detects hand gestures through your webcam and pits the player against a
 rock-paper-scissors/
 │
 ├─ main.py # Main game code
+
 ├─ requirements.txt # Python dependencies
+
 ├─ resources/ # Game assets
+
 │ ├─ rpsbg.png # Background image
+
 │ ├─ rock.png # AI move images
+
 │ ├─ paper.png
+
 │ ├─ scissors.png
+
 │ ├─ win.png # Win overlay
+
 │ ├─ lose.png # Lose overlay
+
 │ └─ PressStart2P-Regular.ttf # Font used for text
 
 
@@ -36,7 +45,7 @@ rock-paper-scissors/
 
 ## 💻 Installation
 
-1. Clone the repository:
+#1. Clone the repository:
 
 git clone https://github.com/H31S3NB3R4/Computer_vision_Projects.git
 cd Computer_vision_Projects/rock-paper-scissors
@@ -55,9 +64,14 @@ pip install -r requirements.txt
 python main.py
 
 •Press S to start the game.
+
 •Use hand gestures in front of your webcam:
+
 •Rock: Fist
+
 •Paper: Open hand
+
 •Scissors: Two fingers
+
 •Press R to restart the game after it ends.
 
